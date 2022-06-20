@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin: 0 auto;
+    position: relative;
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 1vw;
+    margin-top: 2vw;
+}
+.card img{
+    width: 40vw;
+    border-radius: 25px;
+}
+.card .content{
+    width: 90%;
+    margin: 0 auto;
+}
+.card .content p{
+    width: 90%;
+    margin: 0 auto;
+    height: 10vw;
+    margin-top: 1vw;
+    transition: 1s;
+    overflow: hidden;
+}
+.card .content:hover p{
+    height: 30vw;
+}
