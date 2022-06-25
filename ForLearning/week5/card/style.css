@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body{
+    height: 2000px;
+}
+
 .card{
     display: flex;
     flex-direction: column;
@@ -13,10 +17,12 @@
     border-radius: 25px;
     padding: 1vw;
     margin-top: 2vw;
+    transition: .5s;
 }
 .card img{
     width: 40vw;
     border-radius: 25px;
+    margin: 0 auto;
 }
 .card .content{
     width: 90%;
@@ -30,6 +36,8 @@
     transition: 1s;
     overflow: hidden;
 }
-.card .content:hover p{
-    height: 30vw;
-}
+.card button{
+    font-size: 2vw;
+    width: 60%;
+    margin: 1rem auto
+} 

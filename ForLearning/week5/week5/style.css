@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 2rem auto;
+    border: 5px solid black;
+}
+.container img{
+    width: 40%;
+    margin: 0 auto;
+}
+.container h1{
+    width: 80%;
+    margin: 1vw auto;
+}
+.container p{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.container button{
+    margin-top: 2rem;
+    font-size: 2vw;
+}
