@@ -8,7 +8,11 @@ setHomeSize()
 function startButtonEvent(){
     let button = document.getElementById("start");
     button.addEventListener("click", function(){
+        if(button.innerText == "Show Exam"){
+            location.href = "./exam.html"
+        }
         spawnWizard()
+        
     })
 }
 
@@ -21,7 +25,7 @@ async function spawnWizard(){
     let text = document.createElement("div")
     text.innerHTML = `<p>Hello every junior web developer!</p>
     <p>Today we have an examination</p>
-    <a href="">Show Exam</a>`
+    <a href="./exam.html">Show Exam</a>`
     text.setAttribute("class", "text")
     wizard.src = "./asset/wizard.png"
     wizard.setAttribute("class", "wizard")
