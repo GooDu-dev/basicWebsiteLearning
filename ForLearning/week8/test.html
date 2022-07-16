@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            border: 1px solid black;
+            width: 30%;
+            margin: 0 auto;
+        }
+        .box{
+            width: 100%;
+            height: 4vw;
+        }
+        .red{
+            background-color: pink;
+            grid-column: 1/3;
+            width: 100%;
+        }
+        .blue{
+            background-color: lightblue;
+        }
+        .green{
+            background-color: lightgreen;
+        }
+        .orange{
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box red"></div>
+        <div class="box green"></div>
+        <div class="box blue"></div>
+        <div class="box orange"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="game-container">
+            <button id="button">Start</button>
+            <div id="game" class="game">
+                <div class="question">
+                    <h1 id="question">question</h1>
+                </div>
+                <ol class="answer">
+                    <li choice=1 class="ans">answer1</li>
+                    <li choice=2 class="ans">answer2</li>
+                    <li choice=3 class="ans">answer3</li>
+                    <li choice=4 class="ans">answer4</li>
+                </ol>
+            </div>
+        </div>
+        <div class="scoreboard">
+            <div class="q-count">
+                <h1 id="q_count">0</h1>
+                <h1>/</h1>
+                <h1>5</h1>
+            </div>
+            <div class="s-count">
+                <h1>Score : </h1>
+                <h1 id="score">0</h1>
+            </div>
+        </div>
+    </div>   
+
+    <script src="./app.js"></script>
+</body>
+</html>
